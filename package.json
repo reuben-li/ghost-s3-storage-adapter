@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      "ghost-s3-storage-adapter",
+      "/opt/ghost"
+    ]
+  ],
+  "_from": "ghost-s3-storage-adapter@latest",
+  "_id": "ghost-s3-storage-adapter@3.0.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/ghost-s3-storage-adapter",
+  "_nodeVersion": "4.2.6",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/ghost-s3-storage-adapter-3.0.4.tgz_1474027960385_0.8586711909156293"
+  },
+  "_npmUser": {
+    "email": "aorcsik@gmail.com",
+    "name": "aorcsik"
+  },
+  "_npmVersion": "3.10.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "ghost-s3-storage-adapter",
+    "raw": "ghost-s3-storage-adapter",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/ghost-s3-storage-adapter/-/ghost-s3-storage-adapter-3.0.4.tgz",
+  "_shasum": "0ef70e4b389e830f544b9ee5987052f42553eaf6",
+  "_shrinkwrap": null,
+  "_spec": "ghost-s3-storage-adapter",
+  "_where": "/opt/ghost",
+  "author": {
+    "email": "aorcsik@gmail.com",
+    "name": "Antal Orcsik",
+    "url": "http://aorcsik.com"
+  },
+  "bugs": {
+    "url": "https://github.com/aorcsik/ghost-s3-storage-adapter/issues"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.3.0",
+    "bluebird": "^2.10.2"
+  },
+  "description": "Store Ghost's images on S3 and proxy requests for local images to S3.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "0ef70e4b389e830f544b9ee5987052f42553eaf6",
+    "tarball": "https://registry.npmjs.org/ghost-s3-storage-adapter/-/ghost-s3-storage-adapter-3.0.4.tgz"
+  },
+  "gitHead": "c1d6a9c8178270c8c294b086cd265e15f5836f41",
+  "homepage": "https://github.com/aorcsik/ghost-s3-storage-adapter",
+  "keywords": [
+    "amazon",
+    "aws",
+    "blog",
+    "ghost",
+    "plugin",
+    "s3",
+    "storage"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "aorcsik",
+      "email": "aorcsik@gmail.com"
+    }
+  ],
+  "name": "ghost-s3-storage-adapter",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "ghost": ">=0.10.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aorcsik/ghost-s3-storage-adapter.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "3.0.4"
+}
